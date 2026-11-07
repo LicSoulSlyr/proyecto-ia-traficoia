@@ -1,0 +1,26 @@
+name: proyecto_ia
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - joblib
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - gymnasium
+      - stable-baselines3
+      - streamlit
+      - gradio

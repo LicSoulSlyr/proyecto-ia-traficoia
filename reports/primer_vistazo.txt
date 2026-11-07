@@ -1,0 +1,53 @@
+============================================================
+DATASET TABULAR · Metro Interstate Traffic Volume
+============================================================
+Dimensiones: 48,204 filas x 9 columnas
+
+Tipos de datos:
+holiday                    str
+temp                   float64
+rain_1h                float64
+snow_1h                float64
+clouds_all               int64
+weather_main               str
+weather_description        str
+date_time                  str
+traffic_volume           int64 
+
+Valores faltantes por columna:
+holiday                48143
+temp                       0
+rain_1h                    0
+snow_1h                    0
+clouds_all                 0
+weather_main               0
+weather_description        0
+date_time                  0
+traffic_volume             0 
+
+Primeras filas:
+  holiday    temp  rain_1h  snow_1h  clouds_all weather_main weather_description            date_time  traffic_volume
+0     NaN  288.28      0.0      0.0          40       Clouds    scattered clouds  2012-10-02 09:00:00            5545
+1     NaN  289.36      0.0      0.0          75       Clouds       broken clouds  2012-10-02 10:00:00            4516
+2     NaN  289.58      0.0      0.0          90       Clouds     overcast clouds  2012-10-02 11:00:00            4767
+3     NaN  290.13      0.0      0.0          90       Clouds     overcast clouds  2012-10-02 12:00:00            5026
+4     NaN  291.14      0.0      0.0          75       Clouds       broken clouds  2012-10-02 13:00:00            4918 
+
+Resumen numérico:
+                  count         mean          std  min      25%      50%       75%      max
+temp            48204.0   281.205870    13.338232  0.0   272.16   282.45   291.806   310.07
+rain_1h         48204.0     0.334264    44.789133  0.0     0.00     0.00     0.000  9831.30
+snow_1h         48204.0     0.000222     0.008168  0.0     0.00     0.00     0.000     0.51
+clouds_all      48204.0    49.362231    39.015750  0.0     1.00    64.00    90.000   100.00
+traffic_volume  48204.0  3259.818355  1986.860670  0.0  1193.00  3380.00  4933.000  7280.00 
+
+Rango de fechas: 2012-10-02 09:00:00  ->  2018-09-30 23:00:00
+Filas con fecha-hora repetida: 7,629
+
+============================================================
+DATASET DE IMÁGENES · GTSRB
+============================================================
+Carpeta de entrenamiento: C:\Users\pajar\OneDrive\Documentos\Uni\IAVOID\Proyecto\proyecto_ia_semana1\proyecto_ia\data\raw\gtsrb\gtsrb\GTSRB\Training
+Clases: 43 | Imágenes totales: 26,640
+Mínimo por clase: 150 (clase 0) | máximo: 1500 (clase 1)
+Figura guardada en C:\Users\pajar\OneDrive\Documentos\Uni\IAVOID\Proyecto\proyecto_ia_semana1\proyecto_ia\reports\figures\gtsrb_muestras.png

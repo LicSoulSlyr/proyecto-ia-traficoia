@@ -1,0 +1,22 @@
+# Datos pesados (se descargan con src/descargar_datos.py)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/manifest.json
+data/processed/*
+!data/processed/.gitkeep
+
+# Modelos pesados (si son grandes, usar Drive y enlazar en el README)
+*.pt
+*.pth
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
