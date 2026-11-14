@@ -6,7 +6,7 @@
     "archivo": "data\\raw\\metro_traffic\\Metro_Interstate_Traffic_Volume.csv",
     "bytes": 3237208,
     "sha256": "749c90d720360a4215bb15345526073c079ba4cc95e3fa558796d083f85fce9e",
-    "descargado": "2026-11-07T12:20:35"
+    "descargado": "2026-11-14T12:35:26"
   },
   "gtsrb": {
     "fuente": "German Traffic Sign Recognition Benchmark (INI, Ruhr-Universität Bochum)",
@@ -15,6 +15,6 @@
     "licencia": "Verificar condiciones de uso en la página oficial y citar a Stallkamp et al. (2012)",
     "carpeta": "data\\raw\\gtsrb",
     "imagenes_ppm_encontradas": 39270,
-    "descargado": "2026-11-07T12:20:39"
+    "descargado": "2026-11-14T12:43:53"
   }
 }

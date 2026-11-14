@@ -4,14 +4,14 @@ DATASET TABULAR · Metro Interstate Traffic Volume
 Dimensiones: 48,204 filas x 9 columnas
 
 Tipos de datos:
-holiday                    str
+holiday                 object
 temp                   float64
 rain_1h                float64
 snow_1h                float64
 clouds_all               int64
-weather_main               str
-weather_description        str
-date_time                  str
+weather_main            object
+weather_description     object
+date_time               object
 traffic_volume           int64 
 
 Valores faltantes por columna:
@@ -47,7 +47,7 @@ Filas con fecha-hora repetida: 7,629
 ============================================================
 DATASET DE IMÁGENES · GTSRB
 ============================================================
-Carpeta de entrenamiento: C:\Users\pajar\OneDrive\Documentos\Uni\IAVOID\Proyecto\proyecto_ia_semana1\proyecto_ia\data\raw\gtsrb\gtsrb\GTSRB\Training
+Carpeta de entrenamiento: C:\Users\SalvadorMoreno\Proyectos\Materia Fundamentos de IA\proyectoFinal\proyecto-ia-traficoia\data\raw\gtsrb\gtsrb\GTSRB\Training
 Clases: 43 | Imágenes totales: 26,640
 Mínimo por clase: 150 (clase 0) | máximo: 1500 (clase 1)
-Figura guardada en C:\Users\pajar\OneDrive\Documentos\Uni\IAVOID\Proyecto\proyecto_ia_semana1\proyecto_ia\reports\figures\gtsrb_muestras.png
+Figura guardada en C:\Users\SalvadorMoreno\Proyectos\Materia Fundamentos de IA\proyectoFinal\proyecto-ia-traficoia\reports\figures\gtsrb_muestras.png
