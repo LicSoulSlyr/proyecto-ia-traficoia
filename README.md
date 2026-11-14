@@ -62,12 +62,10 @@ proyecto_ia/
 
 | Integrante | Rol | Tema que lidera |
 |---|---|---|
-| Integrante 1 | Coordinación general | Supervisado |
-| Integrante 2 | Datos, limpieza y EDA | No supervisado |
-| Integrante 3 | Simulación y experimentos | Refuerzo |
-| Integrante 4 | Interfaz, repositorio y video | CNN |
-
-(Sustituir por los nombres reales.)
+| Cielo Ruiz | Coordinación general | Supervisado |
+| Salvador Moreno | Datos, limpieza y EDA | No supervisado |
+| Alexander Villalva | Simulación y experimentos | Refuerzo |
+| Javier Dávalos | Interfaz, repositorio y video | CNN |
 
 ## 6. Datos y referencias
 
