@@ -1,0 +1,21 @@
+# Dependencias de TráficoIA (versión 3).
+# Referencia principal: environment.yml (conda). Este archivo sirve como respaldo con pip.
+# Tras validar el entorno del equipo, reemplazar por la salida de:  pip freeze > requirements.txt
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+nbformat
+joblib
+pillow
+tqdm
+torch
+torchvision
+gymnasium
+stable-baselines3
+streamlit
+gradio
