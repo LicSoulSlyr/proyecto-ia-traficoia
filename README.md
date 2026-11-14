@@ -64,7 +64,7 @@ proyecto_ia/
 |---|---|---|
 | Cielo Ruiz | Coordinación general | Supervisado |
 | Salvador Moreno | Datos, limpieza y EDA | No supervisado |
-| Alexander Villalva | Simulación y experimentos | Refuerzo |
+| Alexander Villalva Villa| Simulación y experimentos | Refuerzo |
 | Javier Dávalos | Interfaz, repositorio y video | CNN |
 
 ## 6. Datos y referencias
