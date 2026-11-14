@@ -15,7 +15,7 @@ La descarga escribe `data/raw/manifest.json` (fuente, fecha, tamaño, huella SHA
 | Uso en el proyecto | Aprendizaje supervisado (nivel de tráfico) y no supervisado (perfiles diarios) |
 | Fuente | UCI Machine Learning Repository, dataset 492 |
 | Enlace | https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume |
-| Licencia | CC BY 4.0 (**Confirmado por Salvador** fecha de revisión: 14/11/2026) |
+| Licencia | CC BY 4.0 (**Confirmado por Salvador y Javier** fecha de revisión: 14/11/2026) |
 | Cita | Hogue, J. (2019). *Metro Interstate Traffic Volume* [Conjunto de datos]. UCI Machine Learning Repository. |
 | Archivo | `data/raw/metro_traffic/Metro_Interstate_Traffic_Volume.csv` |
 | Contenido | Volumen horario de tráfico de la autopista I-94 (sentido oeste, Minneapolis–St. Paul), con clima y festivos |
