@@ -24,3 +24,4 @@ dependencies:
       - stable-baselines3
       - streamlit
       - gradio
+      - reportlab
