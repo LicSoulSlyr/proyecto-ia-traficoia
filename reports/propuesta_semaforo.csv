@@ -1,0 +1,16 @@
+franja,nivel,volumen_medio,ciclo_sugerido_s,tipo_de_dia
+00:00 a 04:59,bajo,513,45,Laboral
+05:00 a 05:59,medio,2790,70,Laboral
+06:00 a 09:59,alto,5624,100,Laboral
+10:00 a 10:59,medio,4493,70,Laboral
+11:00 a 17:59,alto,5410,100,Laboral
+18:00 a 21:59,medio,3391,70,Laboral
+22:00 a 23:59,bajo,1800,45,Laboral
+00:00 a 08:59,bajo,994,45,Domingo o festivo
+09:00 a 19:59,medio,3329,70,Domingo o festivo
+20:00 a 23:59,bajo,1830,45,Domingo o festivo
+00:00 a 07:59,bajo,917,45,Sábado / fin de semana activo
+08:00 a 11:59,medio,3512,70,Sábado / fin de semana activo
+12:00 a 12:59,alto,4595,100,Sábado / fin de semana activo
+13:00 a 22:59,medio,3855,70,Sábado / fin de semana activo
+23:00 a 23:59,bajo,1847,45,Sábado / fin de semana activo

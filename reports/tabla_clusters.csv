@@ -1,0 +1,4 @@
+grupo,n_dias,pct_fin_de_semana,pct_festivo,volumen_medio,hora_pico_manana,hora_pico_tarde,volumen_pico,tipo_de_dia
+0,1011,0.0,0.014,3640.836,7,16,6366.868,Laboral
+1,149,0.624,0.215,2203.382,11,15,3815.827,Domingo o festivo
+2,348,0.977,0.003,2765.837,11,14,4595.116,Sábado / fin de semana activo
