@@ -6,6 +6,7 @@ Proyecto Final · Versión 3 de 8 · Python 3.11 + Anaconda.
 Integra aprendizaje supervisado, no supervisado, por refuerzo y una CNN.
 
 > **Estado:** Semana 1 (entorno, datos, EDA y propuesta).
+> **Estado:** Semana 2 (supervisado y no supervisado). 
 
 ## 1. Instalar el entorno
 
@@ -57,6 +58,53 @@ proyecto_ia/
   docs/            guía de GitHub, reporte semanal y generador de la propuesta
   environment.yml  requirements.txt  README.md
 ```
+
+## Semana 2: supervisado y no supervisado
+
+Requiere haber descargado los datos (`python src/descargar_datos.py --tabular`) y tener el entorno `proyecto_ia` activo. Los comandos se ejecutan desde la raíz del repositorio.
+
+### Aprendizaje supervisado: nivel de tráfico
+
+Predice si el tráfico de una hora será **bajo, medio o alto** a partir de hora, día de la semana, temperatura, lluvia y festivo. Compara árbol de decisión, Random Forest, KNN y regresión logística contra un modelo base.
+
+- Cuaderno: `notebooks/02_supervisado.ipynb` (abrir con `jupyter lab`)
+- Código reutilizable: `src/supervisado.py`
+- Modelo guardado: `models/mejor_modelo_supervisado.joblib`
+- Tabla de resultados: `reports/tabla_comparativa_supervisado.csv`
+
+Uso del modelo guardado:
+
+```python
+from src import supervisado
+paquete = supervisado.cargar_modelo()
+supervisado.predecir_nivel(paquete, hora=8, dia_semana=1)   # martes 08:00
+```
+
+### Aprendizaje no supervisado: tipos de día
+
+Agrupa los días por su perfil horario (24 valores) con K-Means y DBSCAN, visualiza con PCA y propone un horario de semáforo para cada tipo de día.
+
+- Cuaderno: `notebooks/03_no_supervisado.ipynb`
+- Código reutilizable: `src/no_supervisado.py`
+- Modelos guardados: `models/kmeans_dias.joblib` y `models/dbscan_dias.joblib`
+- Tablas: `reports/tabla_clusters.csv` y `reports/propuesta_semaforo.csv`
+
+Uso del modelo guardado:
+
+```python
+from src import no_supervisado
+paquete = no_supervisado.cargar_kmeans()
+no_supervisado.clasificar_dia(paquete, perfil_de_24_valores)
+```
+
+### Comprobar que todo está en orden
+
+```bash
+python src/validar_semana2.py
+```
+
+Termina con `Todo en orden.` cuando existen los modelos y tablas y funcionan. La guía para sumar la semana 2 con ramas y *pull requests* está en `docs/GUIA_SEMANA2_GITHUB.md`.
+
 
 ## 5. Equipo
 
