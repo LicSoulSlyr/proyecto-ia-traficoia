@@ -1,0 +1,13 @@
+ID GTSRB,Señal,Entrenamiento,Validación,Prueba,Secuencias ent.,Secuencias val.,Secuencias compartidas
+1,Límite 30 km/h,1200,300,720,40,10,0
+2,Límite 50 km/h,1200,300,750,40,10,0
+3,Límite 60 km/h,780,180,450,26,6,0
+4,Límite 70 km/h,1050,270,660,35,9,0
+5,Límite 80 km/h,1020,240,630,34,8,0
+13,Ceda el paso,1140,300,720,38,10,0
+14,Alto,420,120,270,14,4,0
+17,Entrada prohibida,600,150,360,20,5,0
+18,Precaución general,660,150,390,22,5,0
+25,Obras en la vía,810,210,480,27,7,0
+28,Niños,300,60,150,10,2,0
+38,Mantenga la derecha,1110,270,690,37,9,0
